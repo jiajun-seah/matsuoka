@@ -1,35 +1,40 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar light
+    elevation="4"
+    flat
+    >
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>JIA JUN</span>
+        <span class="font-weight-light"> SEAH</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat>
-          <router-link to="/">Home</router-link>
+        <v-btn text class="button-link">
+          <router-link to="/" class="button-text">Home</router-link>
         </v-btn>
-        <v-btn flat>
-          <router-link to="/about">About</router-link>
+        <v-btn text>
+          <router-link to="/works">Works</router-link>
+        </v-btn>
+        <v-btn text>
+          <router-link to="/amsterdam">Amsterdam</router-link>
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-content>
+    <v-main>
       <router-view/>
-      <HelloWorld/>
-    </v-content>
+    </v-main>
+  <Footer/>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
-
+import Footer from "@/components/Footer";
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Footer
   },
   data() {
     return {
@@ -39,25 +44,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<style scoped>
+.button-link .button-text {
+  text-decoration: none !important;
+  color:#000000;
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>

@@ -2,18 +2,18 @@
   <v-app>
     <v-main>
       <router-view/>
-      <Parallax/>
+      <Carousel/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Parallax from "@/components/Parallax";
+import Carousel from "@/components/Carousel";
 
 export default {
   name: "App",
   components: {
-    Parallax
+    Carousel
   },
   data() {
     return {
