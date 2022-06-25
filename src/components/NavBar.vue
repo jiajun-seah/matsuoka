@@ -1,23 +1,13 @@
 <template>
-<div id="home">
-  <NavBar/> 
-  <Banner/>
-  <Main/>
-</div>
-
+    <div>
+    </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import Banner from '@/components/Banner.vue'
-import Main from '@/components/Main.vue'
 
 export default {
-  name: 'App',
+  name: 'NavBar',
   components: {
-  NavBar,
-  Banner,
-  Main
   }
 }
 </script>
