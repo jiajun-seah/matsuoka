@@ -1,34 +1,63 @@
 <template>
-<div id="home">
-  <NavBar/> 
-  <Banner/>
-  <Main/>
-</div>
+  <v-app>
+    <v-toolbar app>
+      <v-toolbar-title class="headline text-uppercase">
+        <span>Vuetify</span>
+        <span class="font-weight-light">MATERIAL DESIGN</span>
+      </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat>
+          <router-link to="/">Home</router-link>
+        </v-btn>
+        <v-btn flat>
+          <router-link to="/about">About</router-link>
+        </v-btn>
+      </v-toolbar-items>
+    </v-toolbar>
 
+    <v-content>
+      <router-view/>
+      <HelloWorld/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-import Banner from '@/components/Banner.vue'
-import Main from '@/components/Main.vue'
+import HelloWorld from "./components/HelloWorld";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  NavBar,
-  Banner,
-  Main
+    HelloWorld
+  },
+  data() {
+    return {
+      //
+    };
   }
-}
+};
 </script>
 
-<style>
-/* #app {
+<style lang="scss">
+#app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-} */
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
 </style>
