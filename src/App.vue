@@ -14,7 +14,7 @@
           <router-link to="/" class="button-text">Home</router-link>
         </v-btn>
         <v-btn text>
-          <router-link to="/works">Works</router-link>
+          <router-link to="/projects">Projects</router-link>
         </v-btn>
         <v-btn text>
           <router-link to="/amsterdam">Amsterdam</router-link>
