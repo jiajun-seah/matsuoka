@@ -13,7 +13,7 @@ import Parallax from "@/components/Parallax";
 import Bio from "@/components/Bio";
 
 export default {
-  name: "App",
+  name: "Home",
   components: {
     Parallax,
     Bio

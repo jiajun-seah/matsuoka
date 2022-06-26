@@ -23,7 +23,8 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        This website was designed using Vue.js with the help of
+        This website was designed using
+        <a href="https://vuejs.org/">Vue.js</a>  with the help of
         <a href="https://vuetifyjs.com/en/">Vuetify</a> and
         <a href="https://router.vuejs.org/">Vue Router</a>. Find it on
         <a href="https://github.com/jiajun-seah/matsuoka">GitHub</a> 
@@ -51,7 +52,7 @@
 </script>
 
 <style scoped>
-a{
+a, a:visited{
   text-decoration:underline;
   color:white;
 }

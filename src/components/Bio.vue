@@ -28,6 +28,7 @@
             <h2>Hello there! I'm </h2>
             <h1>Jia Jun</h1>
             <h3>Currently a Year 3 Business Analytics Undergraduate at NUS <br/> with a 2nd Major in Statistics</h3>
+            
           </div>
         </v-card>
       </v-col>

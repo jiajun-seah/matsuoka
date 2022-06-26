@@ -11,7 +11,7 @@
 import Carousel from "@/components/Carousel";
 
 export default {
-  name: "App",
+  name: "Amsterdam",
   components: {
     Carousel
   },
