@@ -1,7 +1,5 @@
 <template>
-  <v-btn
-  elevation="2"
-  text
-  dark
->Contact Me Personal</v-btn>
+<div>
+  <h1> This page is for my personal projects... Although it is still a work in progress for now!</h1>
+</div>
 </template>

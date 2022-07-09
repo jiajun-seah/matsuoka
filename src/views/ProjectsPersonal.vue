@@ -2,8 +2,8 @@
 <v-app>
     <v-main>
       <div class="works">
-            <h1>This is an about page</h1>
             <PersonalPart/>
+            <CardsWrapper/>
         </div>
     </v-main>
   </v-app>
@@ -12,11 +12,13 @@
 
 <script>
 import PersonalPart from "@/components/PersonalPart";
+import CardsWrapper from "@/components/CardsWrapper";
 
 export default {
   name: "ProjectsPersonal",
   components: {
     PersonalPart,
+    CardsWrapper
   },
   data() {
     return {

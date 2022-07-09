@@ -10,8 +10,8 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn text class="button-link">
-          <router-link to="/" class="button-text">Home</router-link>
+        <v-btn text class="button-link" to="/">
+        Home
         </v-btn>
 
         <v-menu offset-y open-on-hover>
@@ -49,8 +49,12 @@
         <!-- <v-btn text>
           <router-link to="/projects">Projects</router-link>
         </v-btn> -->
-        <v-btn text>
-          <router-link to="/amsterdam">Amsterdam</router-link>
+        <v-btn text class="button-link" to="/design">
+        Design
+        </v-btn>
+
+        <v-btn text class="button-link" to="/amsterdam">
+        Amsterdam
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -86,4 +90,14 @@ export default {
   color:#000000;
 
 }
-</style>
+
+.theme--light.v-btn--active::before, .theme--light.v-btn--active:hover::before, .theme--light.v-btn--active  {
+  opacity: 1 !important;
+  background-color: $blue;
+} 
+.v-btn-toggle > .v-btn.v-btn {
+  opacity: 1;
+}
+.theme--light.v-btn:focus::before {
+  opacity: 0;
+}
