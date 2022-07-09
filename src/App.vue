@@ -1,8 +1,9 @@
 <template>
   <v-app>
-    <v-toolbar light
-    elevation="4"
-    flat
+    <v-app-bar light
+    elevate-on-scroll
+    dense
+    fixed
     >
       <v-toolbar-title class="headline text-uppercase">
         <span>JIA JUN</span>
@@ -57,7 +58,7 @@
         Amsterdam
         </v-btn>
       </v-toolbar-items>
-    </v-toolbar>
+    </v-app-bar>
 
     <v-main>
       <router-view/>

@@ -27,7 +27,7 @@
         <a href="https://vuejs.org/">Vue.js</a>  with the help of
         <a href="https://vuetifyjs.com/en/">Vuetify</a> and
         <a href="https://router.vuejs.org/">Vue Router</a>. Find it on
-        <a href="https://github.com/jiajun-seah/matsuoka">GitHub</a> 
+        <a href="https://github.com/jiajun-seah/matsuoka">GitHub</a>.
       </v-card-text>
 
       <v-divider></v-divider>
