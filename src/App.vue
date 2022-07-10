@@ -89,16 +89,11 @@ export default {
 .button-link .button-text {
   text-decoration: none !important;
   color:#000000;
+  opacity: 0 !important;
 
 }
 
-.theme--light.v-btn--active::before, .theme--light.v-btn--active:hover::before, .theme--light.v-btn--active  {
-  opacity: 1 !important;
-  background-color: $blue;
-} 
-.v-btn-toggle > .v-btn.v-btn {
-  opacity: 1;
-}
-.theme--light.v-btn:focus::before {
-  opacity: 0;
+.button-link:focus {
+  opacity: 0 !important;
+
 }

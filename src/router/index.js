@@ -5,6 +5,9 @@ import ProjectsSchool from '../views/ProjectsSchool.vue'
 import ProjectsPersonal from '../views/ProjectsPersonal.vue'
 import Design from '../views/Design.vue'
 import Amsterdam from '../views/Amsterdam.vue'
+import ProjectVolarvis from '../views/ProjectVolarvis.vue'
+import ProjectKuler from '../views/ProjectKuler.vue'
+import ProjectCharichain from '../views/ProjectCharichain.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +44,21 @@ const routes = [
     path: '/amsterdam',
     name: 'Amsterdam',
     component: Amsterdam
+  },
+  {
+    path: '/projectVolarvis',
+    name: 'Volarvis',
+    component: ProjectVolarvis
+  },
+  {
+    path: '/projectKuler',
+    name: 'Kuler',
+    component: ProjectKuler
+  },
+  {
+    path: '/projectCharichain',
+    name: 'Project Charichain',
+    component: ProjectCharichain
   }
 ]
 

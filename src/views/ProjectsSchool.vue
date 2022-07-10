@@ -89,7 +89,7 @@ export default {
       ],
       items: [
         {
-          src: "https://firebasestorage.googleapis.com/v0/b/matsuoka-159f8.appspot.com/o/images%2Ffeature-graphic.png?alt=media&token=fd5cf8a6-a6ad-4249-870d-01c73af26e9a",
+          src: "https://firebasestorage.googleapis.com/v0/b/matsuoka-159f8.appspot.com/o/volarvis%2Ffeature-graphic.png?alt=media&token=aeb0ba52-0c01-4549-8e40-8cadf8709eb4",
           title: 'Volarvis',
           subtitle: 'A creature-collecting android game with elements of crafting, collection and evolution',
           description1: 'Module Code: CP2106',
