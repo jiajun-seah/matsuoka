@@ -122,7 +122,7 @@
 
 
 export default {
-  name: "ProjectVolarvis",
+  name: "ProjectKuler",
   components: {
   },
   data() {

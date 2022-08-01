@@ -1,25 +1,29 @@
 <template>
-<v-app>
-    <v-main>
-      <div class="works">
-            <!-- <Dribbble/> -->
-        </div>
-    </v-main>
-  </v-app>
-  
+<div id="app">
+    <lightbox 
+        :images="images" 
+        title="Feed Gallery"
+    ></lightbox>
+</div>
 </template>
-
 <script>
-// import Dribbble from "@/components/Dribbble";
+// import Carousel from "@/components/Carousel";
 
 export default {
   name: "Design",
   components: {
-    // Dribbble
   },
   data() {
     return {
-      //
+      images: [
+        {
+            src: 'https://unsplash.it/500',
+            caption: 'Image 1',
+        },
+        {
+            src: 'https://unsplash.it/501',
+        },
+      ],
     };
   }
 };
